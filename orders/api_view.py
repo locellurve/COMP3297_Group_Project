@@ -21,4 +21,4 @@ def index(request):
         list = query['content']
         for i in list:
             delete_record(i['recordid'])
-    return Response({"msg":"hello"})
+    return Response({"msg":"succeed"})
